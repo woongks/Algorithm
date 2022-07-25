@@ -9,7 +9,7 @@ sample input:
 function sameFrequency(num1, num2) {
   let freq1 = {};
   let freq2 = {};
-  if (num1.length !== num2.length) {
+  if (num1.toString().length !== num2.toString().length) {
     return false;
   }
   for (let digit of String(num1)) {
