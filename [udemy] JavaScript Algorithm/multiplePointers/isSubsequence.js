@@ -8,12 +8,11 @@ function isSubsequence(str1, str2) {
   while (pointer2 < str2.length) {
     if (str1[pointer] == str2[pointer2]) {
       pointer++;
-      pointer2++;
-    } else {
-      pointer2++;
     }
+    pointer2++;
   }
   if (pointer == str1.length) {
+    // this can be inside the while loop
     return true;
   }
   return false;
