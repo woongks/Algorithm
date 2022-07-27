@@ -74,3 +74,20 @@
 - splice: O(n)
 - sort: O(n log n)
 - forEach/map/filter/reduce/etc.: O(n)
+
+12. Problem Solving Process
+
+- understand the problem
+- before coding, make examples (explore concrete examples)
+- simple examples first, then complex ones
+- think what to do with empty inputs
+- break it down (take actual steps to solving)
+- write in sentences what you are going to do
+- refactor
+  - can you check the result?
+  - can you derive the result differently?
+  - can you understand it at a glance?
+  - can you use the result or method for some other problem?
+  - can you imporve the performance of your solution?
+  - can you think of better ways to refactor?
+  - how have other people solved this problem?
